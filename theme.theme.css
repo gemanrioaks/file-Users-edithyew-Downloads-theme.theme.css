@@ -1,0 +1,92 @@
+/**
+ * @name theme1
+ * @author ClearVision Team
+ * @version 6.3.0
+ * @description Highly customizable and beautiful theme for BetterDiscord.
+ * @source https://github.com/ClearVision/ClearVision-v6
+ * @website https://clearvision.github.io
+ * @invite 7pNUC9C
+ * @BDEditor Clear Vision
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand+Medium:wght@100;300;400;500;700&display=swap');
+@import url('https://clearvision.github.io/ClearVision-v6/main.css');
+
+:root {
+  --main-color: #A4A3A5;
+  --hover-color: #9C8EB5;
+  --success-color: #9CC36F;
+  --danger-color: #E36060;
+  --url-color: var(--main-color);
+  --undefined: 0;
+  --background-image: url('https://i.imgur.com/BM78slq.jpg');
+  --background-shading: 74%;
+  --background-position: center;
+  --background-size: cover;
+  --background-repeat: no-repeat;
+  --background-attachment: fixed;
+  --background-brightness: 137%;
+  --background-contrast: 109%;
+  --background-saturation: 100%;
+  --background-grayscale: 0%;
+  --background-invert: 0%;
+  --background-blur: 4px;
+  --background-overlay: rgb(140,138,138,0.45);
+  --user-popout-image: url('https://i.imgur.com/YhOYevi.jpg');
+  --user-popout-position: center;
+  --user-popout-size: cover;
+  --user-popout-repeat: no-repeat;
+  --user-popout-attachment: fixed;
+  --user-popout-brightness: 112%;
+  --user-popout-contrast: 100%;
+  --user-popout-saturation: 100%;
+  --user-popout-grayscale: 0%;
+  --user-popout-invert: 0%;
+  --user-popout-blur: 4px;
+  --user-modal-image: url('https://i.imgur.com/jGPQRhM.jpg');
+  --user-modal-position: Bottom left;
+  --user-modal-size: 150%;
+  --user-modal-repeat: repeat;
+  --user-modal-attachment: fixed;
+  --user-modal-brightness: 133%;
+  --user-modal-contrast: 120%;
+  --user-modal-saturation: 120%;
+  --user-modal-grayscale: 0%;
+  --user-modal-invert: 0%;
+  --user-modal-blur: 4px;
+  --home-icon: url('https://clearvision.github.io/icons/discord.svg');
+  --home-position: center;
+  --home-size: 40px;
+  --channel-unread: #AC9ACD;
+  --channel-color: rgb(255,255,255,1);
+  --muted-color: rgb(129,129,129,0.93);
+  --online-color: #95B96C;
+  --idle-color: #F3CE60;
+  --dnd-color: #EF6E64;
+  --streaming-color: #8B69C5;
+  --offline-color: #939393;
+  --main-font: Quicksand Medium;
+  --code-font: Consolas;
+  --channels-width: 190px;
+  --members-width: 150px;
+  --backdrop-overlay: rgba(0,0,0,0.8);
+  --backdrop-image: var(--background-image);
+  --backdrop-position: var(--background-position);
+  --backdrop-size: var(--background-size);
+  --backdrop-repeat: var(--background-repeat);
+  --backdrop-attachment: var(--background-attachment);
+  --backdrop-brightness: var(--background-brightness);
+  --backdrop-contrast: var(--background-contrast);
+  --backdrop-saturation: var(--background-saturation);
+  --backdrop-invert: var(--background-invert);
+  --backdrop-grayscale: var(--background-grayscale);
+  --backdrop-sepia: var(--background-sepia);
+  --backdrop-blur: var(--background-blur);
+  --bd-blue: var(--main-color);
+  --bd-blue-hover: var(--hover-color);
+  --bd-blue-active: var(--hover-color);
+}
+
+/* Any custom CSS below here */
+
+
